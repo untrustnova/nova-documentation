@@ -1,18 +1,61 @@
-# React + Vite
+# Nova.js Official Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The high-performance, open-source official web presence for the **Nova.js** framework. Built with React, Vite, and Tailwind CSS v4, this site embodies the framework's core values: speed, structure, and a premium developer experience.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Framework:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite](https://vite.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (High-performance CSS engine)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/) & [GSAP](https://gsap.com/)
+- **Icons:** [Lucide React](https://lucide.dev/) & [Simple Icons](https://simpleicons.org/)
+- **API Engine:** [Seishiro API](https://nakikoneko.gitbook.io/seishiroapi)
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Adaptive Atmosphere:** Seamless transitions between high-fidelity Day (Clouds) and Night (Aurora/Stars) modes.
+- **Planetary Hero:** An immersive interactive hero section with dynamic background effects.
+- **Flashlight Branding:** A high-precision spotlight effect in the footer that tracks user interaction.
+- **Celestial Navigation:** A custom-engineered comet cursor with physics-based trailing.
+- **Snappy UI:** Optimized for performance ("sat set") with sub-400ms animation durations.
+- **Mobile First:** Fully responsive design that feels like a native mobile application.
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+Ensure you have [Bun](https://bun.sh/) installed (recommended for maximum performance).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/untrustnova/nova.git
+
+# Navigate to the web directory
+cd nova-web
+
+# Install dependencies
+bun install
+```
+
+### Development
+```bash
+bun dev
+```
+
+### Build
+```bash
+bun build
+```
+
+## 🌐 Ecosystem
+
+- **Nova CLI:** `npm install -g novajs-cli`
+- **Documentation:** [Nova Docs](https://github.com/untrustnova/nova-docs)
+- **API Reference:** [Seishiro API](https://nakikoneko.gitbook.io/seishiroapi)
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+Built with ❤️ by [Untrustnova](https://github.com/untrustnova)

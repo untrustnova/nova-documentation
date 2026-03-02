@@ -1,0 +1,28 @@
+{
+  "mcp": {
+    "name": "nova-web",
+    "version": "1.0.0",
+    "description": "Official high-performance web project for Nova.js",
+    "environment": {
+      "framework": "React",
+      "runtime": "Bun",
+      "styling": "Tailwind CSS v4",
+      "architecture": "Vite-based SPA"
+    },
+    "contexts": [
+      {
+        "role": "core-development",
+        "files": ["src/App.jsx", "src/index.css", "vite.config.js"]
+      },
+      {
+        "role": "ui-components",
+        "files": ["src/components/Navbar.jsx", "src/components/Hero.jsx", "src/components/Footer.jsx"]
+      }
+    ],
+    "commands": {
+      "dev": "bun dev",
+      "build": "bun build",
+      "preview": "bun preview"
+    }
+  }
+}
