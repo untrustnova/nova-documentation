@@ -1,5 +1,7 @@
 # Nova.js Official Website
 
+![Nova.js Banner](./public/images/nova-full.png)
+
 The high-performance, open-source official web presence for the **Nova.js** framework. Built with React, Vite, and Tailwind CSS v4, this site embodies the framework's core values: speed, structure, and a premium developer experience.
 
 ## 🚀 Tech Stack
